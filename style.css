@@ -14,12 +14,14 @@ img{
 .button{
     background-color: #D0D49D;
     display: inline-block;
-    padding: 20px;
-    color:aqua
+    margin: 10px;
+    padding: 30px 50px;
+    color:rgb(255, 255, 255)
 }
 
 .section2{
     text-align: center;
+    background-color:#3A5B25;
 }
 
 h1{
@@ -30,4 +32,46 @@ h1{
     width: 100%;
     font-size: 4rem;
     font-family: "Inspiration", cursive;
+}
+
+.intro {
+    background-color: rgb(237, 122, 122);
+    display: grid;
+    width: 100%;
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-size:x-large;
+}
+
+
+.image1 {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: auto;
+    width: 400px;
+}
+
+.image2 {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 930px;
+    left: 300px;
+}
+
+.dessert {
+    display: flex;
+    align-items: center; 
+}
+
+.dessert-text {
+    width: 800px;
+    padding: 30px;
+    font-size: 30px;
+
 }
