@@ -1,0 +1,33 @@
+img{
+    width: 100%;
+}
+
+.hero-image{
+    background-image: url("./image1.avif");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 50px solid #FFC300;
+}
+
+.button{
+    background-color: #D0D49D;
+    display: inline-block;
+    padding: 20px;
+    color:aqua
+}
+
+.section2{
+    text-align: center;
+}
+
+h1{
+    color: whitesmoke;
+    position: absolute;
+    left: 300px;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+    font-family: "Inspiration", cursive;
+}
