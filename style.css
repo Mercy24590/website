@@ -3,7 +3,7 @@ img{
 }
 
 .hero-image{
-    background-image: url("./image1.avif");
+    background-image: url("./images/image1.avif");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@ img{
     border: 50px solid #FFC300;
 }
 
-.button{
+.buttons{
     background-color: #D0D49D;
     display: inline-block;
     margin: 10px;
@@ -19,7 +19,7 @@ img{
     color:rgb(255, 255, 255)
 }
 
-.section2{
+.button{
     text-align: center;
     background-color:#3A5B25;
 }
@@ -64,14 +64,13 @@ h1{
     left: 300px;
 }
 
-.dessert {
+.intro-dessert {
     display: flex;
     align-items: center; 
 }
 
-.dessert-text {
+.intro-dessert-text {
     width: 800px;
     padding: 30px;
     font-size: 30px;
-
 }
