@@ -43,27 +43,72 @@ h1{
     margin-left: 300px;
     margin-top: 60px;
     margin-bottom: 60px;
-}
-
-.pudding-img{
-    width:400px;
-    height:auto;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
 
 /*info*/
 .details{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 30px;
-    gap: 110px;
+    gap: 90px;
 }
 
 .detail-text{
     color: #DBC9B8;
     background-color:#A17E61;
     text-align: center;
+}
+
+/*recipe*/
+.pudding{
+    display: flex;
+    gap: 40px;
+}
+
+.pudding-img{
+    display: flex;
+    width:400px;
+    height:auto;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.ingredients{
+    font-size: 23px;
+    text-align: left;
+   
+}
+
+.lists{
+    display:flex;
+    gap: 40px;
+}
+
+.step{
+    display:block;
+    margin-right: 280px;
+    font-size: 20px;
+    background-color: #362925;
+    color:white;
+    padding: 20px;
+}
+
+/*back button*/
+.back{
+    background-color:#A17E61;
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left:50px;
+    text-decoration: none;
 }
 
 /*footer*/
