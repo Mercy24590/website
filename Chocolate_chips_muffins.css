@@ -3,7 +3,7 @@ body {
 }
 
 .hero-image{
-    background-image: url("./images/honey-yanibel-minaya-cruz-fPWxYxfBVYM-unsplash.jpg");
+    background-image: url("./images/hero-img.jpg");
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -113,7 +113,7 @@ h1{
 
 /*footer*/
 .footer{
-    background-image: url("./images/monika-grabkowska-YUK1ekmWonk-unsplash.jpg");
+    background-image: url("./images/footer.jpg");
     height: 400px;
     background-repeat: no-repeat;
     text-align:center;
