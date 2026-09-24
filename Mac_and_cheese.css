@@ -1,0 +1,131 @@
+body {
+    background-color: #DBC9B8 ;
+}
+
+.hero-image{
+    background-image: url("./images/honey-yanibel-minaya-cruz-fPWxYxfBVYM-unsplash.jpg");
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    width: 100%;
+    font-size: 4rem;
+    font-family: "Inspiration", cursive;
+}
+
+/*title*/
+.Maccheese-title{
+    background-color: #362925;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Maccheese-title h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 20px 100px;
+    background-color: #A17E61;
+}
+
+/*pudding*/
+.Maccheese{
+    margin-left: 300px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/*info*/
+.details{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 30px;
+    gap: 90px;
+}
+
+.detail-text{
+    color: #DBC9B8;
+    background-color:#A17E61;
+    text-align: center;
+}
+
+/*recipe*/
+.Maccheese{
+    display: flex;
+    gap: 40px;
+}
+
+.Maccheese-img{
+    display: flex;
+    width:400px;
+    height:auto;
+    gap: 30px;
+    flex-direction: column;
+}
+
+.ingredients{
+    font-size: 23px;
+    text-align: left;
+   
+}
+
+.lists{
+    display:flex;
+    gap: 40px;
+}
+
+.step{
+    display:block;
+    margin-right: 280px;
+    font-size: 20px;
+    background-color: #362925;
+    color:white;
+    padding: 20px;
+}
+
+/*back button*/
+.back{
+    background-color:#A17E61;
+    font-size: 30px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left:50px;
+    text-decoration: none;
+}
+
+/*footer*/
+.footer{
+    background-image: url("./images/monika-grabkowska-YUK1ekmWonk-unsplash.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    text-align:center;
+    color: white;
+    padding-top: 50px;
+
+}
+
+.footer h2 {
+    font-size: 50px;
+}
+
+.footer p {
+    font-size: 30px;
+}
